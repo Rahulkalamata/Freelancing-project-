@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Freelancing Platform</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #2d89ef;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1b1f23;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #2d89ef;
+        }
+
+        main {
+            padding: 40px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .btn {
+            background-color: #2d89ef;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #1e5fbe;
+        }
+
+        .about-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            background-color: #ffffff;
+        }
+
+        .about-image {
+            flex: 1;
+            max-width: 400px;
+            padding: 20px;
+        }
+
+        .about-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-text {
+            flex: 1;
+            padding: 20px;
+            max-width: 500px;
+        }
+
+        .about-text h2 {
+            color: #2d89ef;
+        }
+
+        .about-text p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #1b1f23;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #2d89ef;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Freelancing Platform</h1>
+    </header>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="#about">About Us</a>
+        <a href="/predict">Predict Budget</a>
+    </nav>
+
+    <main>
+        <h2>Welcome to the Freelancing Platform</h2>
+        <p>Your one-stop destination to manage and budget freelance projects!</p>
+        <a href="/predict" class="btn">Start Budget Prediction</a>
+    </main>
+
+    <section id="about" class="about-section">
+        <div class="about-image">
+            <img src="https://www.flexjobs.com/blog/wp-content/uploads/2025/04/What-Is-Freelancing-A-Complete-Guide-to-Freelance-Jobs.jpg?w=1024" alt="About Us Image">
+        </div>
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>
+                We are a passionate team dedicated to helping freelancers and businesses manage project budgets efficiently. 
+                Our platform uses smart predictions to ensure you stay on track and make informed decisions.
+            </p>
+            <p>
+                Whether you’re starting a new project or optimizing your costs, we’re here to guide you every step of the way.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Freelancing Platform | Contact: <a href="mailto:rahulkalamata1@gmail.com">support@freelancingplatform.com</a></p>
+    </footer>
+
+</body>
+</html>

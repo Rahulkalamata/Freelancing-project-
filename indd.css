@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #283593;
+    color: white;
+}
+
+.site-header .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.site-header .logo span {
+    color: #FFD54F;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: url("{% static 'img/bg.jpg' %}") no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    padding: 0.8rem 1.5rem;
+    background: #FFD54F;
+    color: #283593;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    background: white;
+}
+
+.feature-box {
+    width: 30%;
+    text-align: center;
+}
+
+.feature-box img {
+    width: 100px;
+    height: 100px;
+}
+
+.feature-box h3 {
+    margin-top: 1rem;
+    color: #283593;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+    background: #283593;
+    color: white;
+}
